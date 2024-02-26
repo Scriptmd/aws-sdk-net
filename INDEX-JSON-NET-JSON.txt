@@ -1,0 +1,270 @@
+https://nuget.info/packages/PowerShell/7.4.1
+https://api.nuget.org/v3/index.json
+===========================================
+INDEX-JSON
+=======================
+{
+  "version": "3.0.0",
+  "resources": [
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/query",
+      "@type": "SearchQueryService",
+      "comment": "Query endpoint of NuGet Search service (primary)"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/query",
+      "@type": "SearchQueryService",
+      "comment": "Query endpoint of NuGet Search service (secondary)"
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService",
+      "comment": "Autocomplete endpoint of NuGet Search service (primary)"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService",
+      "comment": "Autocomplete endpoint of NuGet Search service (secondary)"
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/",
+      "@type": "SearchGalleryQueryService/3.0.0-rc",
+      "comment": "Azure Website based Search Service used by Gallery (primary)"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/",
+      "@type": "SearchGalleryQueryService/3.0.0-rc",
+      "comment": "Azure Website based Search Service used by Gallery (secondary)"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-semver1/",
+      "@type": "RegistrationsBaseUrl",
+      "comment": "Base URL of Azure storage where NuGet package registration info is stored"
+    },
+    {
+      "@id": "https://api.nuget.org/v3-flatcontainer/",
+      "@type": "PackageBaseAddress/3.0.0",
+      "comment": "Base URL of where NuGet packages are stored, in the format https://api.nuget.org/v3-flatcontainer/{id-lower}/{version-lower}/{id-lower}.{version-lower}.nupkg"
+    },
+    {
+      "@id": "https://www.nuget.org/api/v2",
+      "@type": "LegacyGallery"
+    },
+    {
+      "@id": "https://www.nuget.org/api/v2",
+      "@type": "LegacyGallery/2.0.0"
+    },
+    {
+      "@id": "https://www.nuget.org/api/v2/package",
+      "@type": "PackagePublish/2.0.0"
+    },
+    {
+      "@id": "https://www.nuget.org/api/v2/symbolpackage",
+      "@type": "SymbolPackagePublish/4.9.0",
+      "comment": "The gallery symbol publish endpoint."
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/query",
+      "@type": "SearchQueryService/3.0.0-rc",
+      "comment": "Query endpoint of NuGet Search service (primary) used by RC clients"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/query",
+      "@type": "SearchQueryService/3.0.0-rc",
+      "comment": "Query endpoint of NuGet Search service (secondary) used by RC clients"
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/query",
+      "@type": "SearchQueryService/3.5.0",
+      "comment": "Query endpoint of NuGet Search service (primary) that supports package type filtering"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/query",
+      "@type": "SearchQueryService/3.5.0",
+      "comment": "Query endpoint of NuGet Search service (secondary) that supports package type filtering"
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService/3.0.0-rc",
+      "comment": "Autocomplete endpoint of NuGet Search service (primary) used by RC clients"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService/3.0.0-rc",
+      "comment": "Autocomplete endpoint of NuGet Search service (secondary) used by RC clients"
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService/3.5.0",
+      "comment": "Autocomplete endpoint of NuGet Search service (primary) that supports package type filtering"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService/3.5.0",
+      "comment": "Autocomplete endpoint of NuGet Search service (secondary) that supports package type filtering"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-semver1/",
+      "@type": "RegistrationsBaseUrl/3.0.0-rc",
+      "comment": "Base URL of Azure storage where NuGet package registration info is stored used by RC clients. This base URL does not include SemVer 2.0.0 packages."
+    },
+    {
+      "@id": "https://www.nuget.org/packages/{id}/{version}/ReportAbuse",
+      "@type": "ReportAbuseUriTemplate/3.0.0-rc",
+      "comment": "URI template used by NuGet Client to construct Report Abuse URL for packages used by RC clients"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-semver1/{id-lower}/index.json",
+      "@type": "PackageDisplayMetadataUriTemplate/3.0.0-rc",
+      "comment": "URI template used by NuGet Client to construct display metadata for Packages using ID"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-semver1/{id-lower}/{version-lower}.json",
+      "@type": "PackageVersionDisplayMetadataUriTemplate/3.0.0-rc",
+      "comment": "URI template used by NuGet Client to construct display metadata for Packages using ID, Version"
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/query",
+      "@type": "SearchQueryService/3.0.0-beta",
+      "comment": "Query endpoint of NuGet Search service (primary) used by beta clients"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/query",
+      "@type": "SearchQueryService/3.0.0-beta",
+      "comment": "Query endpoint of NuGet Search service (secondary) used by beta clients"
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService/3.0.0-beta",
+      "comment": "Autocomplete endpoint of NuGet Search service (primary) used by beta clients"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService/3.0.0-beta",
+      "comment": "Autocomplete endpoint of NuGet Search service (secondary) used by beta clients"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-semver1/",
+      "@type": "RegistrationsBaseUrl/3.0.0-beta",
+      "comment": "Base URL of Azure storage where NuGet package registration info is stored used by Beta clients. This base URL does not include SemVer 2.0.0 packages."
+    },
+    {
+      "@id": "https://www.nuget.org/packages/{id}/{version}/ReportAbuse",
+      "@type": "ReportAbuseUriTemplate/3.0.0-beta",
+      "comment": "URI template used by NuGet Client to construct Report Abuse URL for packages"
+    },
+    {
+      "@id": "https://www.nuget.org/packages/{id}/{version}?_src=template",
+      "@type": "PackageDetailsUriTemplate/5.1.0",
+      "comment": "URI template used by NuGet Client to construct details URL for packages"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-gz-semver1/",
+      "@type": "RegistrationsBaseUrl/3.4.0",
+      "comment": "Base URL of Azure storage where NuGet package registration info is stored in GZIP format. This base URL does not include SemVer 2.0.0 packages."
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-gz-semver2/",
+      "@type": "RegistrationsBaseUrl/3.6.0",
+      "comment": "Base URL of Azure storage where NuGet package registration info is stored in GZIP format. This base URL includes SemVer 2.0.0 packages."
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-gz-semver2/",
+      "@type": "RegistrationsBaseUrl/Versioned",
+      "clientVersion": "4.3.0-alpha",
+      "comment": "Base URL of Azure storage where NuGet package registration info is stored in GZIP format. This base URL includes SemVer 2.0.0 packages."
+    },
+    {
+      "@id": "https://api.nuget.org/v3-index/repository-signatures/4.7.0/index.json",
+      "@type": "RepositorySignatures/4.7.0",
+      "comment": "The endpoint for discovering information about this package source's repository signatures."
+    },
+    {
+      "@id": "https://api.nuget.org/v3-index/repository-signatures/5.0.0/index.json",
+      "@type": "RepositorySignatures/5.0.0",
+      "comment": "The endpoint for discovering information about this package source's repository signatures."
+    },
+    {
+      "@id": "https://api.nuget.org/v3/vulnerabilities/index.json",
+      "@type": "VulnerabilityInfo/6.7.0",
+      "comment": "The endpoint for discovering information about vulnerabilities of packages in this package source."
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/index.json",
+      "@type": "Catalog/3.0.0",
+      "comment": "Index of the NuGet package catalog."
+    }
+  ],
+  "@context": {
+    "@vocab": "http://schema.nuget.org/services#",
+    "comment": "http://www.w3.org/2000/01/rdf-schema#comment"
+  }
+}
+==============================
+REPOSITORIO AWS-SDK-NET
+https://github.com/aws/aws-sdk-net.git 
+===============================================
+INSTALACION
+=======================
+sudo yum remove awscli
+https://docs.aws.amazon.com/index.html
+https://docs.aws.amazon.com/sdk-for-javascript/?icmpid=docs_homepage_sdktoolkits
+https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-help.html
+OPCIONAL INSTALACION
+======================
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+==========================
+USANDO UNA LOCALIZACION
+=====================
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli --update
+===========================
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+Note
+When updating from a previous version, the unzip command prompts to overwrite existing files. 
+To skip these prompts, such as with script automation, use the -u update flag for unzip. 
+This flag automatically updates existing files and creates new ones as needed.
+
+
+$ unzip -u awscliv2.zip
+
+=========
+Run the install program. The installation command uses a file named install in the newly unzipped aws directory. 
+By default, the files are all installed to /usr/local/aws-cli, and a symbolic link is created in /usr/local/bin. 
+The command includes sudo to grant write permissions to those directories.
+
+
+$ sudo ./aws/install
+
+TOO
+====
+./aws/install -i /usr/local/aws-cli -b /usr/local/bin
+
+===
+Note
+To update your current installation of the AWS CLI, add your existing symlink and installer information to construct the install command with the --update parameter.
+
+
+$ sudo ./aws/install --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli --update
+To locate the existing symlink and installation directory, use the following steps:
+
+Use the which command to find your symlink. This gives you the path to use with the --bin-dir parameter.
+
+
+$ which aws
+/usr/local/bin/aws
+Use the ls command to find the directory that your symlink points to. This gives you the path to use with the --install-dir parameter.
+
+
+$ ls -l /usr/local/bin/aws
+lrwxrwxrwx 1 ec2-user ec2-user 49 Oct 22 09:49 /usr/local/bin/aws -> /usr/local/aws-cli/v2/current/bin/aws
+Confirm the installation with the following command.
+
+
+$ aws --version
+aws-cli/2.15.19 Python/3.11.6 Linux/5.10.205-195.807.amzn2.x86_64 botocore/2.4.5
+If the aws command cannot be found, you might need to restart your terminal or follow the troubleshooting in Troubleshoot AWS CLI errors.
+
